@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import math
+from math import floor as math_floor
 """
 Annotation Project floor Function
 
@@ -11,4 +11,4 @@ n: float
 def floor(n: float) -> int:
     """ A function that adds two numbers """
 
-    return math.floor(n)
+    return math_floor(n)
